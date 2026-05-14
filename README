@@ -1,0 +1,18 @@
+How to run: Type this in Terminal of cd of the file
+Fortran file:
+For the Assignment.f90 file Run Guide
+step 1: gfortran "FileToRun.f90" -o "ExecutableFileName" 
+Step 2: Press Enter
+step 3: .\ "ExecutableFileName.exe"
+Example
+C:\Users\danis\Documents\fortran90> gfortran Assignment.f90 -o number
+PS C:\Users\danis\Documents\fortran90> .\number.exe
+
+C file
+For the Assignment.c file Run Guide
+step 1: gcc "FileToRun.c" -o "ExecutableFileName" 
+Step 2: Press Enter
+step 3: .\ "ExecutableFileName.exe"
+Example
+PS C:\Users\danis\Documents\fortran90> gcc Assignment.c  -o numbers
+PS C:\Users\danis\Documents\fortran90> ./numbers.exe
